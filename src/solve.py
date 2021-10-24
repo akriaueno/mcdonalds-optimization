@@ -105,7 +105,7 @@ if __name__ == "__main__":
     menus, nutrients, nutrient_types = get_data(con)
     # https://www.caa.go.jp/policies/policy/food_labeling/information/research/2019/pdf/food_labeling_cms206_200424_01.pdf
     nutrient_targets = [
-        {"id": 1, "name": "エネルギー", "target": 2650},
+        {"id": 1, "name": "エネルギー", "target": 2200},
         {"id": 3, "name": "たんぱく質", "target": 81},
         {"id": 4, "name": "脂質", "target": 62},
         {"id": 5, "name": "炭水化物", "target": 320},
