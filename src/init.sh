@@ -2,10 +2,14 @@
 set -x
 cd $(dirname $0)
 
+if [[ ! -d ../data/  ]]
+then
+  mkdir ../data/
+fi
 ./get_data.sh
 ./save_to_sqlite.py
 
-if [[ -d venv  ]]
+if [[ -d venv/  ]]
 then
   rm -r venv/
 fi
