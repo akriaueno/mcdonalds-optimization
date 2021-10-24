@@ -6,6 +6,8 @@
 ## 実行方法
 
 ```
+git clone git@github.com:akriaueno/mcdonalds-optimizeation.git
+cd mcdonalds-optimizeation
 ./src/init.sh
 ./src/solve.sh
 ```
